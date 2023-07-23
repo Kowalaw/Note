@@ -1,0 +1,32 @@
+font-size{
+    font-size: 62.5%;
+}/*taille de la police a définir pour utilisé plus facilement le vw par la suite
+a savoir que 62.5% définit la police sur 10px donc 1vw = 10px*/
+
+flex-box{
+    justify-content: center space-evenly space-between space-around; 
+    /* centré ou espacé le contenue*/
+    justify-content: flex-end;
+    /*alignement sur la droite*/
+
+    align-content: center space-evenly flex-end ;
+    /*justify gère l'espace dans la largeur, align gère les ligne sur la hauteur*/
+
+    flex-direction: row column;
+    /*amogne le contenue de gauche a droite ou de haut en bas*/
+
+    flex-wrap: wrap;
+    /*les élément passe a la ligne selon la taille de la page*/
+}
+
+@media (max-width: 650px){
+    .image{
+        margin: 0px;
+    }
+    /*condition qui aplique des propriété spécifique selon la taille de l'écrant
+    spécifier la contiion entre ()
+    puis ouvré les {
+        et définir a l'intérieur les changement que la condition implique
+    }
+    exemple retiré la marge autour des image quand l'écrant est plus petit*/
+}
