@@ -30,3 +30,10 @@ flex-box{
     }
     exemple retiré la marge autour des image quand l'écrant est plus petit*/
 }
+
+#trucACentré{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);/*position le centre de l'élément au milieux et non dans le coins de l'élément en questoin*/
+}

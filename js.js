@@ -47,3 +47,8 @@ while (i2+conditionDeRépétitionDeLaBoucle){
     //le compteur peut augmenté ou diminué selon l'interaction avec l'utilisateur 
     //et la boucle peut donc être infini
 }
+
+Tableau.forEach(valeurcourente => {
+    //forRach appelle une fonction qui sera appliqué pour chaque élément que compose un tableau
+    //suivi donc de la fonction qu'on va appeler pour les fameux élément 
+});
